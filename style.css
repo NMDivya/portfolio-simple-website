@@ -1,0 +1,129 @@
+/* Universal styles for both the pages index, contact */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+    padding: 50px;
+}
+
+.section-one {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.section-one__name {
+    font-size: 60px;
+}
+
+.section-one__role {
+    font-size: 28px;
+}
+
+.section-one__contact {
+    /* padding-left: 10px;padding-right: 10px; padding-top: 5px; padding-bottom: 5px; */
+    padding: 5px;
+    border-left: solid orangered 5px;
+    border-right: solid orangered 5px;
+    border-radius: 4px;
+    text-decoration: none;
+    background-color: orangered;
+    color: white;
+    display: inline-block;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.section-five {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.section-five__title a {
+    color: skyblue;
+}
+
+.section-two,
+.section-three,
+.section-four,
+.section-five {
+    margin-top: 10px;
+}
+
+.section-two__desc,
+.section-three__desc,
+.section-four__desc,
+.section-five__desc {
+    margin-top: 10px;
+}
+
+/* Styles for index.html */
+.section-three,
+.section-four {
+    padding: 20px;
+    display: inline-block;
+    height: 250px;
+    border-radius: 20px;
+    vertical-align: top;
+}
+
+.section-three {
+    background-color: #6462FD;
+}
+
+.section-four {
+    background-color: #FE7517;
+    width: 1200px;
+}
+
+.section-three__desc,
+.section-four__desc {
+    list-style-type: none;
+}
+
+/* Styles for contact page */
+.contact-form {
+    margin-top: 20px;
+    align-content: center;
+}
+
+.contact-form__name,
+.contact-form__email,
+.contact-form__msg,
+.contact-form__submit {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.contact-form__name,
+.contact-form__email {
+    padding: 10px;
+    border: none;
+    border-bottom: solid black 1px;
+}
+
+.contact-form__msg {
+    padding: 10px;
+    border: none;
+    border: solid black 1px;
+}
+
+.contact-form__submit {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #6462FD;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
